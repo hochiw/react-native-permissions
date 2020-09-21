@@ -61,6 +61,7 @@ public class RNPermissionsModule extends ReactContextBaseJavaModule {
     { "WRITE_CALL_LOG", "android.permission.WRITE_CALL_LOG" },
     { "WRITE_CONTACTS", "android.permission.WRITE_CONTACTS" },
     { "WRITE_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE" },
+    { "NFC", "android.permission.NFC" }
   };
 
   private final SharedPreferences sharedPrefs;
